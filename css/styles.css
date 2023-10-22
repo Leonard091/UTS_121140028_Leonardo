@@ -332,26 +332,7 @@ hr{
   position: relative;
   overflow: hidden;
 }
-/* .section-nav{
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-  background-color: #377D71;
-  padding: 8px 12px;
-}
 
-.section-nav>a:hover {
-  font-size: 20px;
-  transition: font-size 1s;
-  cursor: pointer;
-}
-.section-nav>a {
-  font: bold;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: bold;
-
-} */
 .bottom-container{
     background-color: #377D71;
     padding: 70px;
