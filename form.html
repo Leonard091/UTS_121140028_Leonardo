@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud-2.png" alt="cloud">
+      <h1>Form</h1>
+      <img class="bottom-cloud" src="images/cloud-2.png" alt="cloud">
+      <img class="mountain" src="images/mountain.png" alt="mountain's picture">
+    </div>
+    <!-- <nav>
+      <div class="section-nav">
+        <a href="#homepage">Halaman Utama</a>
+        <a href="#formulir">Halaman Formulir</a>
+        <a href="#tabel">Halaman Tabel</a>
+      </div>
+  </nav> -->
+    <div class="nav_container">
+      <div class="sidebar">
+        <div class="hamburger-menu__container">
+          <div class="hamburger-menu">
+            <div class="hamburger-menu__line"></div>
+            <div class="hamburger-menu__line"></div>
+            <div class="hamburger-menu__line"></div>
+          </div>
+        </div>
+        <nav class="nav">
+          <nav class="nav__item">
+            <a href="./form.html">
+              <i data-feather="user" class="nav__item-icon"></i>
+              <span class="nav__item-text">Beranda</span>
+            </a>
+          </nav>
+          <nav class="nav__item">
+            <a href="./form.html">
+                <i data-feather="list" class="nav__item-icon"></i>
+                <span class="nav__item-text">Form</span>
+            </a>
+          </nav>
+          <nav class="nav__item">
+            <a href="./table.html">
+                <i data-feather="table" class="nav__item-icon"></i>
+                <span class="nav__item-text">Table</span>
+            </a>
+
+          </nav>
+        </nav>
+      </div>
+    </div>
+
+    <main class="form-content">
+        <form action="table.html" method="get" id="registrationForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br>
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" required><br>
+            <label for="prodi">Program Studi:</label>
+            <input type="text" id="prodi" name="prodi" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+              <option value="Laki-laki">Laki-laki</option>
+              <option value="Perempuan">Perempuan</option>
+            </select><br>
+            <label for="tanggalLahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggalLahir" name="tanggalLahir" required><br>
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" required></textarea><br>
+            <button type="submit">Submit</button>
+          </form>
+      </main>
+
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Do you have any problem with coding?</h3>
+        <p class="contact-text">Then contact me and tell me about the problem, or you can say hi and let's be creative together :)</p>
+        <a class="btn" href="mailto:leonardosirait80@gamil.com">CONTACT ME</a>
+      </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/leonardo-sirait-026588245">LinkedIn</a>
+      <a class="footer-link" href="https://www.instagram.com/leonardo.s.2205">Instagram</a>
+      <a class="footer-link" href="https://www.appbrewery.co">Website</a>
+      <p class="copyright">© 2022 Leonardo A.M. Sirait</p>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="./navbar.js"></script>
+  <script src="./data_submit.js"></script>
+  
+</html>
+
